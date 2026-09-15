@@ -23,7 +23,7 @@ yarn.lock
 
 # eslint cache
 .eslintcache
-.eslintcache
+
 
 # editors / IDE
 .vscode/
