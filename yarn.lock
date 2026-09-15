@@ -14120,6 +14120,7 @@ __metadata:
     eslint-plugin-react: "npm:7.28.0"
     eslint-plugin-react-hooks: "npm:4.3.0"
     prettier: "npm:^3.9.6"
+    prop-types: "npm:^15.8.1"
     react: "npm:^17.0.1"
     react-dom: "npm:^17.0.1"
     react-router-dom: "npm:6"
