@@ -18,10 +18,6 @@ const freelanceProfiles = [
     jobTitle: 'Développeuse Fullstack',
     picture: DefaultPicture,
   },
-  {
-    jobTitle: 'Happiness manager',
-    picture: DefaultPicture,
-  },
 ];
 
 function Freelances() {

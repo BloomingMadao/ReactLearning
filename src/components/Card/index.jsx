@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import DefaultPicture from '../../assets/profile.png';
 
 function Card({ label, title, picture }) {
   return (
@@ -11,13 +12,15 @@ function Card({ label, title, picture }) {
   );
 }
 Card.propTypes = {
-  label: PropTypes.string,
+  label: PropTypes.string.isRequired,
   title: PropTypes.string.isRequired,
-  picture: PropTypes.string,
+  picture: PropTypes.string.isRequired,
 };
 
 Card.defaultProps = {
-  title : 'Un titre par défaut'
-}
+  label: '',
+  title: '',
+  picture: DefaultPicture,
+};
 
 export default Card;
