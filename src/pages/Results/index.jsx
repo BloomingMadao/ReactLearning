@@ -52,7 +52,7 @@ const LoaderWrapper = styled.div`
   justify-content: center;
 `;
 
-function formatFetchParams(answers) {
+export function formatQueryParams(answers) {
   const answerNumbers = Object.keys(answers);
 
   return answerNumbers.reduce((previousParams, answerNumber, index) => {
