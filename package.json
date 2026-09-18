@@ -46,5 +46,11 @@
     "eslint-plugin-react": "7.28.0",
     "eslint-plugin-react-hooks": "4.3.0",
     "prettier": "^3.9.6"
+  },
+  "resolutions": {
+    "babel-preset-current-node-syntax": "1.0.1"
+  },
+  "overrides": {
+    "babel-preset-current-node-syntax": "1.0.1"
   }
 }
